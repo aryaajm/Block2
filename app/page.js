@@ -45,7 +45,7 @@ export default function Home() {
           style={{ flex: 1, padding: '0.5rem', fontSize: '1rem' }}
         />
         <button type="submit" disabled={loading} style={{ padding: '0.5rem 1rem', fontSize: '1rem' }}>
-          {loading ? 'Thinking and wondering...' : 'Ask'}
+          {loading ? 'Thinking and wondering and wondering some more...' : 'Ask'}
         </button>
       </form>
 
